@@ -1,5 +1,11 @@
 # Changelog for Mondrian
 
+## 2023-12-07
+
+- Enable more kernel features such as `POSIX_MQUEUE` and `IP_VS` to make docker work.
+- Enable KernelSU.
+
+
 ## 2023-12-06
 
 - All kernel module are OSS. goodix_core.ko and xiaomi_touch.ko are reverse engineered. The OSS version is still a little buggy.
