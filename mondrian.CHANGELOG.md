@@ -1,5 +1,22 @@
 # Changelog for Mondrian
 
+## 2024-02-05
+
+- Default terminal application for PFA. (And fixes in zygote to support it)
+- Docker overlayfs driver fix.
+- Sepolicy fixes for PFA.
+- Reserve more spaces & inodes on various partitions.
+- Pick up signature-spoofing patch from lineageos4microg
+- Pick up notification forwarding from other user profiles feature from GrapheneOS.
+- Include minimum gapps. (MindTheGapps)
+- Safetynet fixes.
+    -  hide suid and dev mount options for /data in the kernel 
+- Set min. brightness to 0.01
+- Enable `CONFIG_DEV{TMPFS,PTS_MULTIPLE_INSTANCES}`, `CONFIG_NULL_TTY` and `CONFIG_VT`.
+- Upstream changes.
+
+**I no longer publish OTA packages! From now on, only target_files_zip are published. After all, the build is not for non-technical users. The intended audience can build an OTA package from the published target_files_zip.**
+
 ## 2023-12-23
 
 - Pacman for Android(PFA) is now included in the build :tada:!
